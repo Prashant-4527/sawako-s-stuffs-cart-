@@ -2,12 +2,12 @@
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║           KAORUKO — AI Desktop Voice Assistant           ║
+║              AI Desktop Voice Assistant           ║
 ║                  Elite Edition v1.0.0                    ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
-**Kaoruko** is an offline-first, privacy-focused AI voice assistant for Windows.<br>
+**sawako** is an offline-first, privacy-focused AI voice assistant for Windows.<br>
 Wake word → Whisper STT → 3-layer NLU → Action Execution → Edge TTS.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue) ![PyQt6](https://img.shields.io/badge/UI-PyQt6-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
