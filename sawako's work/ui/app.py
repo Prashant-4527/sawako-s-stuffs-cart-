@@ -495,7 +495,8 @@ class KaorukoApp:
 
 # ── Thread-safe event bridge ──────────────────────────────────────────────────
 
-class _EventBridge(QObject if 'PyQt6' in sys.modules else object):
+from PyQt6.QtCore import QObject
+class _EventBridge(QObject):
     """
     Routes async event bus events to Qt UI updates safely across threads.
     Uses QTimer.singleShot to marshal calls to the Qt main thread.
